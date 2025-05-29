@@ -9,10 +9,10 @@ docker build -t python-git .
 2. run container
 
 ```bash
-docker run -it -v $(pwd)/app:/app python-git
+docker run --rm -it -v $(pwd)/app:/app python-git
 ```
 
-3. run dylin with and the the output
+3. run dylin (it prints the process too)
 
 ```bash
 bash run.sh
