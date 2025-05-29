@@ -12,7 +12,7 @@ docker build -t python-git-dylin .
 docker run --rm -it -v $(pwd)/app:/app python-git-dylin
 ```
 
-(if you want you can download, image is a bit different)
+(if you want you can download)
 ```bash
 docker pull denini/python-git-dylin:latest
 docker tag denini/python-git-dylin:latest python-git-dylin
